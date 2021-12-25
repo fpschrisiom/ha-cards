@@ -1,0 +1,20 @@
+cards:
+  - entity: sensor.weather_temperature_masterbedroom
+    graph: line
+    type: sensor
+  - entity: sensor.weather_temperature_livingroom
+    graph: line
+    type: sensor
+  - entity: sensor.weather_temperature_utility
+    graph: line
+    type: sensor
+  - entity: sensor.weather_temperature_sunroom
+    graph: line
+    type: sensor
+  - entity: sensor.weather_temperature_frontroom
+    graph: line
+    type: sensor
+  - entity: sensor.weather_temperature_shed
+    graph: line
+    type: sensor
+type: vertical-stack
