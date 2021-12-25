@@ -1,0 +1,27 @@
+type: custom:valetudo-map-card
+entity: camera.map_data
+vacuum_entity: vacuum.dr_robonick
+title: Dr Robotnik
+rotate: 1
+map_scale: 2
+crop:
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+min_height: 0
+custom_buttons:
+  - service: script.clean_dining_room
+    icon: mdi:table-chair
+  - service: script.clean_living_room
+    icon: mdi:sofa
+  - service: script.clean_kitchen
+    icon: mdi:stove
+  - service: script.clean_landing
+    icon: mdi:stairs
+  - service: script.clean_toilet
+    icon: mdi:toilet
+  - service: script.clean_master_bedroom
+    icon: mdi:bed-king
+  - service: script.clean_master_bathroom
+    icon: mdi:shower
