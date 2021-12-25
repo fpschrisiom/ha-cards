@@ -1,0 +1,7 @@
+type: map
+entities:
+  - entity: device_tracker.chris_2
+  - entity: device_tracker.mobiledevicerhiannon
+  - entity: device_tracker.sandra_pixel
+dark_mode: true
+hours_to_show: 24
