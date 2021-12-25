@@ -1,0 +1,5 @@
+entities:
+  - entity: switch.hallway_heater
+  - entity: switch.plug_air_compressor
+  - entity: switch.plugsitting_room_on_off
+type: entities
