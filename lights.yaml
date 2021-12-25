@@ -1,0 +1,16 @@
+entities:
+  - entity: light.light_masterbedroom
+  - entity: light.light_balcony
+  - entity: switch.plug_fishtank
+  - entity: light.light_landing
+  - entity: light.light_hallway
+  - entity: light.light_kitchen_counter
+  - entity: light.light_backpatio
+  - entity: switch.light_patio
+  - entity: light.light_shed
+  - entity: light.light_rgb_cattery
+  - entity: light.light_understairs_rgb
+  - entity: switch.plug_christmas_tree
+show_header_toggle: false
+title: Lights
+type: entities
