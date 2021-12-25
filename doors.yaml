@@ -1,0 +1,9 @@
+entities:
+  - entity: binary_sensor.magnet_front_door
+  - entity: binary_sensor.magnet_inside_door
+  - entity: binary_sensor.magnet_garage_door
+  - entity: binary_sensor.magnet_shed_door
+  - entity: binary_sensor.magnet_balcony_door
+  - entity: binary_sensor.magnet_sunroom_door
+type: glance
+state_color: true
