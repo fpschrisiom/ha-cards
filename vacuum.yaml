@@ -29,26 +29,23 @@ cards:
     entity: vacuum.dr_robonick
     stats:
       default:
-        - attribute: main_filter
+        - entity_id: sensor.main_filter
           subtitle: Filter
           unit: hours
-        - attribute: sensor.right_brush
+        - entity_id: sensor.right_brush
           subtitle: Side brush
           unit: hours
-        - attribute: main_brush
+        - entity_id: sensor.main_brush
           subtitle: Main brush
           unit: hours
-        - attribute: sensor.sensor_cleaning
+        - entity_id: sensor.sensor_cleaning
           subtitle: Sensors
           unit: hours
-        - attribute: cleanCount
-          subtitle: No of Cleans
-          unit: null
     cleaning:
-      - attribute: cleanArea
+      - entity_id: sensor.current_statistics_area
         unit: m2
         subtitle: Cleaning area
-      - attribute: cleanTime
+      - entity_id: sensor.current_statistics_time
         subtitle: Cleaning time
         unit: minutes
 type: vertical-stack
