@@ -1,0 +1,5 @@
+type: custom:mushroom-title-card
+title: Hello ^_^
+subtitle: >-
+  Currently {{ states.light | selectattr('state','eq','on') | list | count }}
+  lights are on!

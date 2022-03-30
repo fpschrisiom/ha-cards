@@ -1,0 +1,49 @@
+type: vertical-stack
+cards:
+  - type: custom:mushroom-title-card
+    title: All Lights
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-light-card
+        entity: switch.light_patio
+        use_light_color: false
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-light-card
+        entity: light.light_kitchen_counter
+        show_brightness_control: true
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-light-card
+        entity: light.light_balcony
+      - type: custom:mushroom-light-card
+        entity: light.light_backpatio
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-light-card
+        entity: light.light_masterbedroom
+        show_brightness_control: true
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-light-card
+        entity: light.wled
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-light-card
+        entity: light.light_rgb_cattery
+        name: Catio
+      - type: custom:mushroom-light-card
+        entity: light.wled_stairs
+        name: Stairs
+      - type: custom:mushroom-light-card
+        entity: light.light_workbench_rgb
+        name: Workbench
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-light-card
+        entity: light.light_shed
+        name: Shed Light
+        use_light_color: true
+        show_brightness_control: true
+        show_color_temp_control: true
+        show_color_control: true

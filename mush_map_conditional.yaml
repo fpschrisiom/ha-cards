@@ -1,0 +1,51 @@
+type: vertical-stack
+cards:
+  - type: custom:mushroom-chips-card
+    chips:
+      - type: menu
+      - type: entity
+        entity: alarm_control_panel.apartment
+      - type: entity
+        entity: person.person1
+        icon: mdi:face-man
+      - type: conditional
+        conditions:
+          - entity: light.light_masterbedroom
+            state: 'on'
+        chip:
+          type: template
+          content: Bedroom light is On
+          icon: mdi:lightbulb-on-outline
+          icon_color: yellow
+      - type: conditional
+        conditions:
+          - entity: vacuum.valetudo_robot
+            state: 'on'
+        chip:
+          type: template
+          content: Dr Robotnick is attacking
+          icon: mdi:robot-vacuum
+          icon_color: red
+      - type: conditional
+        conditions:
+          - entity: switch.chrisdesktop
+            state: 'on'
+        chip:
+          type: template
+          content: Chris-PC is online
+          icon: mdi:desktop-classic
+          icon_color: green
+      - type: conditional
+        conditions:
+          - entity: sensor.terraria_server
+            state: 'on'
+        chip:
+          type: template
+          content: Terraria Server
+          icon: mdi:sword-cross
+          icon_color: blue
+  - type: map
+    entities:
+      - device_tracker.chris
+    dark_mode: true
+    hours_to_show: 24
