@@ -1,0 +1,8 @@
+type: glance
+entities:
+  - entity: climate.wiser_everywhere
+  - entity: climate.wiser_dining_room
+  - entity: sensor.wiser_hot_water
+  - entity: button.wiser_boost_all_heating
+  - entity: button.wiser_boost_hot_water
+state_color: true
