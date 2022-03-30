@@ -19,33 +19,12 @@ cards:
         icon: mdi:bed-king
       - service: script.clean_master_bathroom
         icon: mdi:shower
+      - service: script.clean_master_bathroom_bedroom
+        icon: mdi:robot-vacuum
     rotate: 1
     title: Dr Robotnik
     type: custom:valetudo-map-card
     entity: camera.map_data
+    vacuum: valetudo_robot
     vacuum_entity: vacuum.dr_robonick
-  - compact_view: false
-    type: custom:vacuum-card
-    entity: vacuum.dr_robonick
-    stats:
-      default:
-        - entity_id: sensor.main_filter
-          subtitle: Filter
-          unit: hours
-        - entity_id: sensor.right_brush
-          subtitle: Side brush
-          unit: hours
-        - entity_id: sensor.main_brush
-          subtitle: Main brush
-          unit: hours
-        - entity_id: sensor.sensor_cleaning
-          subtitle: Sensors
-          unit: hours
-    cleaning:
-      - entity_id: sensor.current_statistics_area
-        unit: m2
-        subtitle: Cleaning area
-      - entity_id: sensor.current_statistics_time
-        subtitle: Cleaning time
-        unit: minutes
 type: vertical-stack
