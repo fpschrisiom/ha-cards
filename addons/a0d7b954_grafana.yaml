@@ -1,7 +1,0 @@
-certfile: fullchain.pem
-env_vars: []
-grafana_ingress_user: haingress
-keyfile: privkey.pem
-log_level: info
-plugins: []
-ssl: true

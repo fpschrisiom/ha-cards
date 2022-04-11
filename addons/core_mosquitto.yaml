@@ -1,9 +1,0 @@
-certfile: fullchain.pem
-customize:
-  active: false
-  folder: mosquitto
-keyfile: privkey.pem
-logins:
-- password: mqttuser_
-  username: mqttuser
-require_certificate: false

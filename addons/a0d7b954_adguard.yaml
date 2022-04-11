@@ -1,3 +1,0 @@
-certfile: fullchain.pem
-keyfile: privkey.pem
-ssl: true

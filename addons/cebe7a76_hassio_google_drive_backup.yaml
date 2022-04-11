@@ -1,7 +1,0 @@
-alternate_dns_servers: 192.168.2.12,8.8.8.8,8.8.4.4
-backup_time_of_day: 03:00
-days_between_backups: 1
-max_backups_in_google_drive: 4
-max_backups_in_ha: 30
-max_sync_interval_seconds: 43200
-send_error_reports: true

@@ -1,7 +1,0 @@
-computers:
-- address: 192.168.2.6
-  alias: Chris-Desktop
-  credentials: chris%1234
-  delay: 0
-  message: Home Assistant is shutting down this PC. This cannot be canceled. Please
-    save your work quickly!

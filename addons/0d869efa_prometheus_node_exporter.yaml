@@ -1,3 +1,0 @@
-basic_auth_pass: $2a$12$Azy3nrjebl.U17DLmpX57.cUUKzm/PX5thtAkf7xl/hUHSJrm4VkS
-basic_auth_user: prom
-enable_basic_auth: false
