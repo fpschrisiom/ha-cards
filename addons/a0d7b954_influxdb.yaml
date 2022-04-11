@@ -1,0 +1,9 @@
+auth: true
+certfile: fullchain.pem
+envvars:
+- name: INFLUXDB_HTTP_LOG_ENABLED
+  value: 'true'
+keyfile: privkey.pem
+log_level: info
+reporting: true
+ssl: true

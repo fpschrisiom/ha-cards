@@ -1,0 +1,19 @@
+mapColors:
+  floor: '#0076ff'
+  obstacle: '#52aeff'
+  path: '#ffffff'
+mapSettings:
+  drawCharger: true
+  drawPath: true
+  drawRobot: true
+  rotate: 0
+  scale: 3
+mqtt:
+  autoconfPrefix: homeassistant
+  broker_url: mqtt://mqttuser:mqttuser_@192.168.2.12:1883
+  caPath: ''
+  identifier: robot
+  mapDataTopic: valetudo/robot/MapData/map-data
+  minMillisecondsBetweenMapUpdates: 5000
+  publishMapImage: true
+  topicPrefix: valetudo

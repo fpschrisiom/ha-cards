@@ -1,0 +1,21 @@
+  - platform: wake_on_lan
+    mac: !secret chrispc_mac
+    name: ChrisDesktop
+    host: !secret chrispc_ip
+    turn_off:
+      service: hassio.addon_stdin
+      data:
+        addon: core_rpc_shutdown
+        input: Chris-Desktop
+        
+  - platform: template
+    switches:
+      wiser_set_hotwater_mode:
+        turn_on:
+          service: wiser.set_hotwater_mode
+          data:
+            hotwater_mode: 'on'
+        turn_off:
+          service: wiser.set_hotwater_mode
+          data:
+            hotwater_mode: 'auto'

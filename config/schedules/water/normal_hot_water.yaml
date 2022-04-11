@@ -1,0 +1,66 @@
+Name: Wiser Hot Water
+Description: Schedule for Wiser Hot Water
+Type: HotWater
+Monday:
+  - Time: 06:00
+    State: On
+  - Time: 10:30
+    State: Off
+  - Time: 16:30
+    State: On
+  - Time: 21:30
+    State: Off
+Tuesday:
+  - Time: 06:00
+    State: On
+  - Time: 10:30
+    State: Off
+  - Time: 16:30
+    State: On
+  - Time: 21:30
+    State: Off
+Wednesday:
+  - Time: 06:00
+    State: On
+  - Time: 10:30
+    State: Off
+  - Time: 16:30
+    State: On
+  - Time: 21:30
+    State: Off
+Thursday:
+  - Time: 06:00
+    State: On
+  - Time: 10:30
+    State: Off
+  - Time: 16:30
+    State: On
+  - Time: 21:30
+    State: Off
+Friday:
+  - Time: 06:00
+    State: On
+  - Time: 10:30
+    State: Off
+  - Time: 16:30
+    State: On
+  - Time: 21:30
+    State: Off
+Saturday:
+  - Time: 06:00
+    State: On
+  - Time: 12:30
+    State: Off
+  - Time: 14:30
+    State: On
+  - Time: 21:30
+    State: Off
+Sunday:
+  - Time: 06:00
+    State: On
+  - Time: 12:30
+    State: Off
+  - Time: 14:30
+    State: On
+  - Time: 21:30
+    State: Off

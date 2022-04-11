@@ -1,0 +1,10 @@
+- alias: "set Themes - by caulecriativo.com"
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: input_select.themes
+  action:
+  - service: frontend.set_theme
+    data_template:
+      name: >
+        {{ trigger.to_state.state }}

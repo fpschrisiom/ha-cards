@@ -1,0 +1,71 @@
+{
+    "device_type": "Router",
+    "ieee": "00:15:8d:00:02:75:e0:32",
+    "lqi": 233,
+    "manufacturer": "Feibit",
+    "model": "FNB56-ZCW25FB2.1",
+    "neighbours": [
+        {
+            "depth": 1,
+            "device_type": "Router",
+            "ieee": "00:0d:6f:ff:fe:63:a6:03",
+            "lqi": 30,
+            "manufacturer": "innr",
+            "model": "SP 222",
+            "new_joins_accepted": "Unknown",
+            "nwk": "0xc627",
+            "offline": false,
+            "pan_id": "00:21:2e:ff:ff:05:1e:cb",
+            "relation": "Sibling",
+            "rx_on_when_idle": "On",
+            "supported": true
+        },
+        {
+            "depth": 1,
+            "device_type": "Router",
+            "ieee": "14:b4:57:ff:fe:41:78:7a",
+            "lqi": 33,
+            "manufacturer": "innr",
+            "model": "SP 222",
+            "new_joins_accepted": "Unknown",
+            "nwk": "0xf867",
+            "offline": false,
+            "pan_id": "00:21:2e:ff:ff:05:1e:cb",
+            "relation": "Sibling",
+            "rx_on_when_idle": "On",
+            "supported": true
+        },
+        {
+            "depth": 2,
+            "device_type": "End_Device",
+            "ieee": "ec:1b:bd:ff:fe:65:bd:86",
+            "lqi": 51,
+            "manufacturer": "TUYATEC-p9HCE8pZ",
+            "model": "TS0011",
+            "new_joins_accepted": "Unknown",
+            "nwk": "0x6ddf",
+            "offline": false,
+            "pan_id": "00:21:2e:ff:ff:05:1e:cb",
+            "relation": "Child",
+            "rx_on_when_idle": "Off",
+            "supported": true
+        },
+        {
+            "depth": 0,
+            "device_type": "Coordinator",
+            "ieee": "00:21:2e:ff:ff:05:1e:cb",
+            "lqi": 76,
+            "manufacturer": "dresden elektronik",
+            "model": "ConBee II",
+            "new_joins_accepted": "Unknown",
+            "nwk": "0x0000",
+            "offline": false,
+            "pan_id": "00:21:2e:ff:ff:05:1e:cb",
+            "relation": "Parent",
+            "rx_on_when_idle": "On",
+            "supported": true
+        }
+    ],
+    "nwk": "0xd0f7",
+    "offline": false
+}
