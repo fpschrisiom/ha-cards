@@ -1,8 +1,0 @@
-items:
-- icon: mdi:home-circle-outline
-  id: lovelace_mushroom
-  mode: storage
-  require_admin: false
-  show_in_sidebar: true
-  title: Mushroom
-  url_path: lovelace-mushroom
